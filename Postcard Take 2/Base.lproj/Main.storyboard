@@ -104,6 +104,15 @@
                                     <action selector="sendMailButtonPressed:" destination="waf-n2-ADp" eventType="touchUpInside" id="kba-Ij-T1U"/>
                                 </connections>
                             </button>
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label 2" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9dw-wm-Sn4">
+                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="7" y="126" width="57" height="21"/>
+                                </variation>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <variation key="default">
@@ -113,6 +122,7 @@
                                 <exclude reference="X9k-Uk-wWC"/>
                                 <exclude reference="0eN-oK-TkL"/>
                                 <exclude reference="x11-Up-Gvu"/>
+                                <exclude reference="9dw-wm-Sn4"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
@@ -122,6 +132,7 @@
                                 <include reference="X9k-Uk-wWC"/>
                                 <include reference="0eN-oK-TkL"/>
                                 <include reference="x11-Up-Gvu"/>
+                                <include reference="9dw-wm-Sn4"/>
                             </mask>
                         </variation>
                     </view>
@@ -130,6 +141,7 @@
                         <outlet property="enterNameTextField" destination="0eN-oK-TkL" id="IwO-nC-aPk"/>
                         <outlet property="mailButton" destination="x11-Up-Gvu" id="Wtt-LR-a5i"/>
                         <outlet property="messageLabel" destination="X9k-Uk-wWC" id="F0X-PN-KmC"/>
+                        <outlet property="nameLabel" destination="9dw-wm-Sn4" id="gLV-4I-Dd6"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="6Db-d1-h72" userLabel="First Responder" sceneMemberID="firstResponder"/>
